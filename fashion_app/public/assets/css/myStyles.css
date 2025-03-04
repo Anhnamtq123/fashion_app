@@ -1,0 +1,105 @@
+#addProduct{
+
+}
+body{
+    /* overflow: hidden; */ /* không để cuận trang */
+}
+.wd-200{
+    width: 200px;
+}
+.hg-200{
+    height: 200px;
+}
+.hg-300{
+    height: 300px;
+}
+.hiden{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+.stand_still{
+    overflow: hidden;
+}
+.background-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Nền đen, độ mờ 50% */
+    z-index: 2000; /* Đảm bảo hiển thị trên các phần tử khác */
+}
+
+.formAdd{
+    z-index: 2001;
+}
+.z-index10{
+    z-index: 10;
+}
+
+.btn-description{
+    width: 100%;
+}
+
+.picture-frame{
+    cursor: pointer;
+    font-size: 40px;
+    color: rgb(154, 154, 154);
+    border: 2px dashed rgb(154, 154, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture-frame:active{
+    color: rgb(0, 0, 0);
+    border: 2px dashed rgb(0, 0, 0);
+}
+
+.picture-img{
+  object-fit: cover; /* Cắt ảnh để vừa khung, không bị méo */
+  object-position: center; /* Căn giữa ảnh */
+}
+
+/*boxSearch*/
+
+/*Thanh cuận*/
+.parent{
+    z-index: 2001;
+    width: 100%;
+    height: 200px;
+    overflow: auto; /* tự động cuận khi vượt quá chiều cao */
+    white-space: nowrap; /* Ngăn xuống dòng, giúp cuộn ngang */
+}
+.w-100{
+    width: 100%;
+}
+
+.box-items{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.item{
+    padding: 8px;
+}
+
+/*End boxSearch*/
+
+.bg-blu{
+    background-color: white;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.parent .item{
+    border-bottom: 1px solid;
+}
+.parent .item:hover{
+    background-color: rgba(45, 91, 125, 0.3);
+    color: blue;
+    cursor: pointer;
+}
