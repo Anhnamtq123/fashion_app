@@ -13,8 +13,8 @@ giúp quản lý sản phẩm, đơn hàng, khách hàng, và doanh thu một c�
 - **Quản lý tồn kho**: Kiểm soát số lượng sản phẩm trong kho.
 
 ## 🛠️ Công nghệ sử dụng
-Backend: Laravel (PHP)
-Frontend: Blade Template, Bootstrap, Ajax (jQuery, Fetch API)
-Cơ sở dữ liệu: MySQL
-Xác thực: Laravel Authentication
-Giao tiếp dữ liệu: REST API, Ajax (bất đồng bộ)
+- Backend: Laravel (PHP)
+- Frontend: Blade Template, Bootstrap, Ajax (jQuery, Fetch API)
+- Cơ sở dữ liệu: MySQL
+- Xác thực: Laravel Authentication
+- Giao tiếp dữ liệu: REST API, Ajax (bất đồng bộ)
